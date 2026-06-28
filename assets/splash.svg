@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Aura animated logo">
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <style>
+    .arc{fill:none;stroke-width:1.8;stroke-dasharray:100;stroke-dashoffset:100;animation:draw 1.2s ease-out forwards}
+    .spk{opacity:0;transform:scale(.2);transform-box:fill-box;transform-origin:center;animation:pop .55s ease-out forwards}
+    .core{opacity:0;transform:scale(.2);transform-box:fill-box;transform-origin:center;animation:pop .6s .95s ease-out forwards, beat 2.6s 1.6s ease-in-out infinite}
+    .glow{opacity:0;animation:gin 1s 1s ease-out forwards, gpulse 2.6s 2s ease-in-out infinite}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes pop{0%{opacity:0;transform:scale(.2)}70%{opacity:1;transform:scale(1.12)}100%{opacity:1;transform:scale(1)}}
+    @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+    @keyframes gin{to{opacity:.4}}
+    @keyframes gpulse{0%,100%{opacity:.22}50%{opacity:.5}}
+  </style>
+  <circle class="glow" cx="120" cy="120" r="26" fill="#F4D58A" filter="url(#glow)"/>
+  <ellipse class="arc" pathLength="100" cx="120" cy="120" rx="84" ry="56" transform="rotate(40 120 120)" stroke="#C9A24A"/>
+  <ellipse class="arc" pathLength="100" style="animation-delay:.3s" cx="120" cy="120" rx="84" ry="56" transform="rotate(-40 120 120)" stroke="#8FA3BE"/>
+  <polygon class="spk" style="animation-delay:.70s" fill="#EAC06E" points="120,27 123.5,36.5 133,40 123.5,43.5 120,53 116.5,43.5 107,40 116.5,36.5"/>
+  <polygon class="spk" style="animation-delay:.95s" fill="#EAC06E" points="120,187 123.5,196.5 133,200 123.5,203.5 120,213 116.5,203.5 107,200 116.5,196.5"/>
+  <polygon class="spk" style="animation-delay:1.10s" fill="#EAC06E" points="167,158 169.5,164.5 176,167 169.5,169.5 167,176 164.5,169.5 158,167 164.5,164.5"/>
+  <polygon class="spk" style="animation-delay:1.25s" fill="#EAC06E" points="73,64 75.5,70.5 82,73 75.5,75.5 73,82 70.5,75.5 64,73 70.5,70.5"/>
+  <polygon class="spk" style="animation-delay:.80s" fill="#BFD0E6" points="200,107 203.5,116.5 213,120 203.5,123.5 200,133 196.5,123.5 187,120 196.5,116.5"/>
+  <polygon class="spk" style="animation-delay:.85s" fill="#BFD0E6" points="40,107 43.5,116.5 53,120 43.5,123.5 40,133 36.5,123.5 27,120 36.5,116.5"/>
+  <polygon class="spk" style="animation-delay:1.15s" fill="#BFD0E6" points="167,64 169.5,70.5 176,73 169.5,75.5 167,82 164.5,75.5 158,73 164.5,70.5"/>
+  <polygon class="spk" style="animation-delay:1.20s" fill="#BFD0E6" points="73,158 75.5,164.5 82,167 75.5,169.5 73,176 70.5,169.5 64,167 70.5,164.5"/>
+  <polygon class="core" fill="#F4D58A" points="120,94 126,114 146,120 126,126 120,146 114,126 94,120 114,114"/>
+</svg>

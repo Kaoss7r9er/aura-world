@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Aura World — Projeyi Destekle</title>
+<meta name="description" content="Aura World'ü desteklemek için bağış yap. Papara, IBAN, Kreosus ve daha fazlası."/>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+<link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+<div class="bg"></div><div class="blob a"></div><div class="blob b"></div>
+
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="index.html"><img src="assets/icon.svg" alt="Aura World"/> Aura World</a>
+  <button class="burger" aria-label="Menü">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Tanıtım</a>
+    <a href="download.html">İndir</a>
+    <a href="donate.html" class="active">Bağış</a>
+    <a class="btn btn-primary nav-cta" href="download.html"><span class="material-symbols-outlined ico">download</span> İndir</a>
+  </div>
+</div></nav>
+
+<section class="section" style="padding-top:70px"><div class="wrap">
+  <div class="thanks reveal">
+    <span class="eyebrow"><span class="dot"></span> Bir not</span>
+    <h2 style="font-size:clamp(32px,5vw,52px);margin:18px 0 0">Merhaba, ben <span class="grad">Taha</span> 👋</h2>
+    <p style="color:var(--ink-dim);font-size:17px;margin-top:16px">Aura World'ü tek başıma, sırf sevdiğim için geliştiriyorum ve herkese ücretsiz sunuyorum. Bir kuruş bağışlamak zorunda değilsin — uygulamayı kullanman, kendi dünyanı kurman bile bana yetiyor. Ama bir gün "bu emeğe ortak olmak isterim" dersen, bıraktığın o küçük destek bana <em>"doğru yoldasın, devam et"</em> demenin en güzel yolu olur. Ne yaparsan yap, buraya kadar geldiğin için teşekkür ederim. 🤍</p>
+  </div>
+
+  <div class="dono-grid">
+    <!-- Kreosus -->
+    <div class="dono reveal" data-dono="kreosus">
+      <div class="top"><span class="em">💜</span><h3>Kreosus</h3></div>
+      <p>Türkiye'nin yerli destek platformu. Tek seferlik ya da aylık destek olabilirsin.</p>
+      <div class="val"><span data-dono-val>—</span>
+        <a class="act" data-dono-open href="#" target="_blank" rel="noopener">Aç</a>
+        <button class="act" data-dono-copy>Kopyala</button></div>
+    </div>
+
+    <!-- IBAN -->
+    <div class="dono reveal" data-dono="iban">
+      <div class="top"><span class="em">🏦</span><h3>Banka / IBAN (Havale·EFT)</h3></div>
+      <p>Doğrudan banka havalesiyle destek. IBAN'ı kopyalayıp bankandan gönderebilirsin.</p>
+      <div class="val"><span data-dono-val>—</span>
+        <button class="act" data-dono-copy>Kopyala</button></div>
+    </div>
+
+    <!-- Papara -->
+    <div class="dono reveal" data-dono="papara">
+      <div class="top"><span class="em">⚡</span><h3>Papara</h3></div>
+      <p>Papara numarasını kopyalayıp Papara uygulamasından saniyeler içinde gönderebilirsin.</p>
+      <div class="val"><span data-dono-val>—</span>
+        <a class="act" data-dono-open href="#" target="_blank" rel="noopener">Aç</a>
+        <button class="act" data-dono-copy>Kopyala</button></div>
+    </div>
+
+    <!-- GitHub Sponsors seçeneği kaldırıldı -->
+
+    <!-- Spread the word -->
+    <div class="dono reveal" style="background:linear-gradient(160deg,rgba(143,163,190,.10),var(--glass))">
+      <div class="top"><span class="em">📣</span><h3>Paranı değil, sesini ver</h3></div>
+      <p>Bağış yapamıyorsan da sorun değil! Aura World'ü arkadaşlarına anlatmak, paylaşmak ve geri bildirim göndermek de çok büyük bir destek.</p>
+      <div class="val" style="border:none;background:none;padding:0">
+        <a class="btn btn-ghost" href="index.html"><span class="material-symbols-outlined ico">share</span> Tanıtım sayfası</a></div>
+    </div>
+  </div>
+
+  <p class="note reveal">Bağış yapsan da yapmasan da, Aura'yı kullandığın ve bu hikâyenin bir parçası olduğun için teşekkür ederim. 🤍</p>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="foot">
+    <div>
+      <a class="brand" href="index.html"><img src="assets/icon.svg" alt=""/> Aura World</a>
+      <p>Kendi evrenini kur — yerel, çevrimdışı ve tamamen senin olan bir dünya kurma uygulaması.</p>
+    </div>
+    <div class="foot-links">
+      <div class="foot-col"><h4>Ürün</h4>
+        <a href="index.html">Tanıtım</a><a href="download.html">İndir</a><a href="donate.html">Bağış</a></div>
+      <div class="foot-col"><h4>Platform</h4>
+        <a href="download.html">Windows</a><a href="download.html">macOS (yakında)</a><a href="download.html">Linux (yakında)</a></div>
+      <div class="foot-col"><h4>Yasal</h4>
+        <a href="privacy.html">Gizlilik Politikası</a><a href="privacy.html#kvkk">KVKK Aydınlatma</a><a href="terms.html">Kullanım Koşulları</a></div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span data-year>2026</span> Taha Karaoğlu · Aura World</span>
+    <span class="lic-pill"><span class="material-symbols-outlined" style="font-size:15px">verified_user</span> PolyForm Noncommercial 1.0.0 · Ticari kullanım yasaktır</span>
+  </div>
+</div></footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
