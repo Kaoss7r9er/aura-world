@@ -19,8 +19,6 @@ window.AURA = {
   // Donation methods — fill what you have, leave others empty ("").
   donate: {
     kreosus:  "https://kreosus.com/aura-world/about",
-    iban:     "TR090001009010477390705001",
-    ibanName: "Taha Karaoğlu",
     papara:   "1742600399"        // Papara numarası (Papara→Papara, IBAN gerekmez)
   }
 };
